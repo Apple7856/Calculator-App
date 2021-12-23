@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100vw;
+    height: 517px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box{
+    flex: 2;
+    width: 290px;
+    height: 517px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal-box{
+    width: 290px;
+    height: 435px;
+    background-color: rgb(4, 27, 49);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    margin-top: 10px;
+}
+
+.input-box{
+    width: 230px;
+    height: 80px;
+    background-color: white;
+    border-radius: 3px;
+    color: black;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-box{
+    width: 260px;
+    height: 275px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.btnb{
+    width: 45px;
+    height: 30px;
+    margin: 21px 0px 0px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.text-style{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.history-box{
+    flex: 1;
+}
+
+.inputValue{
+    width: 215px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+#result{
+    display: none;
+}
+
+#historyResult{
+    display: none;
+}

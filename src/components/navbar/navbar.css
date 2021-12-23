@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(26, 31, 31);
+    border: none;
+    
+}
+
+.main-navbar{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    height: 60px;
+}
+
+.heading{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}
